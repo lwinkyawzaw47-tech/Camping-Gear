@@ -14,12 +14,16 @@
         <div class="navbar-brand">
             <h2>Camping<span>Gear</span></h2>
         </div>
+        <button class="navbar-toggle" onclick="this.parentElement.classList.toggle('nav-open')" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+        </button>
         <ul class="navbar-links">
             <li><a href="index.html">Home</a></li>
             <li><a href="Categories.html">Categories</a></li>
             <li><a href="About.html">About Us</a></li>
             <li><a href="Cart.html">Cart</a></li>
             <li><a href="Review.html">Review</a></li>
+            <li><a href="contact.html">Contact</a></li>
         </ul>
         <div class="navbar-actions">
             <a href="sign.html" class="btn-signin">Sign In</a>
@@ -30,7 +34,7 @@
         
         <div class="product-card">
             <div class="image-container">
-                <img src="images/Hiker boot.png" alt="Summit Hiker GORE-TEX">
+                <img src="images/Hikerboot.png" alt="Summit Hiker GORE-TEX">
                 <span class="category-tag">Waterproof</span>
             </div>
             <div class="product-body">
@@ -49,7 +53,7 @@
                         <span class="old-price">$210</span>
                         <span class="current-price">$185.00</span>
                     </div>
-                    <button class="cart-icon-btn" onclick="addToCart('Summit Hiker', '185.00', 'images/Hiker boot.png')">
+                    <button class="cart-icon-btn" onclick="addToCart('Summit Hiker', '185.00', 'images/Hikerboot.png')">
                         <i class="fas fa-shopping-cart"></i>
                     </button>
                 </div>
@@ -58,7 +62,7 @@
 
         <div class="product-card">
             <div class="image-container">
-                <img src="images/Swift-path boot.jpg" alt="Swift-Path Runner">
+                <img src="images/Swift-pathboot.jpg" alt="Swift-Path Runner">
                 <span class="category-tag" style="background:#2ecc71; color:white;">Ultralight</span>
             </div>
             <div class="product-body">
@@ -76,7 +80,7 @@
                     <div class="price-stack">
                         <span class="current-price">$120.00</span>
                     </div>
-                    <button class="cart-icon-btn" onclick="addToCart('Swift-Path Runner', '120.00', 'images/Swift-path boot.jpg')">
+                    <button class="cart-icon-btn" onclick="addToCart('Swift-Path Runner', '120.00', 'images/Swift-pathboot.jpg')">
                         <i class="fas fa-shopping-cart"></i>
                     </button>
                 </div>
@@ -85,7 +89,7 @@
 
         <div class="product-card">
             <div class="image-container">
-                <img src="images/Alphine Boot.avif" alt="Alpine Scrambler">
+                <img src="images/AlphineBoot.avif" alt="Alpine Scrambler">
                 <div class="category-tag">All-Terrain</div>
             </div>
             <div class="product-body">
@@ -104,7 +108,7 @@
                         <span class="old-price">$155</span>
                         <span class="current-price">$130.00</span>
                     </div>
-                    <button class="cart-icon-btn" onclick="addToCart('Alpine Scrambler', '130.00', 'images/Alphine Boot.avif')">
+                    <button class="cart-icon-btn" onclick="addToCart('Alpine Scrambler', '130.00', 'images/AlphineBoot.avif')">
                         <i class="fas fa-shopping-cart"></i>
                     </button>
                 </div>
@@ -113,7 +117,7 @@
 
         <div class="product-card">
             <div class="image-container">
-                <img src="images/Artic boot.webp" alt="Arctic Grip Boot">
+                <img src="images/Articboot.webp" alt="Arctic Grip Boot">
                 <span class="category-tag" style="background:#3498db; color:white;">Insulated</span>
             </div>
             <div class="product-body">
@@ -131,7 +135,7 @@
                     <div class="price-stack">
                         <span class="current-price">$245.00</span>
                     </div>
-                    <button class="cart-icon-btn" onclick="addToCart('Arctic Grip', '245.00', 'images/Artic boot.webp')">
+                    <button class="cart-icon-btn" onclick="addToCart('Arctic Grip', '245.00', 'images/Articboot.webp')">
                         <i class="fas fa-shopping-cart"></i>
                     </button>
                 </div>
@@ -140,7 +144,7 @@
 
         <div class="product-card">
             <div class="image-container">
-                <img src="images/Rivers cross boot.jpg" alt="River Cross Sandal">
+                <img src="images/Rivers-ross-oot.jpg" alt="River Cross Sandal">
                 <div class="category-tag">Water</div>
             </div>
             <div class="product-body">
@@ -159,7 +163,7 @@
                         <span class="old-price">$95</span>
                         <span class="current-price">$75.00</span>
                     </div>
-                    <button class="cart-icon-btn" onclick="addToCart('River Sandal', '75.00', 'images/Rivers cross boot.jpg')">
+                    <button class="cart-icon-btn" onclick="addToCart('River Sandal', '75.00', 'images/Riverscrossboot.jpg')">
                         <i class="fas fa-shopping-cart"></i>
                     </button>
                 </div>
@@ -168,7 +172,7 @@
 
         <div class="product-card">
             <div class="image-container">
-                <img src="images/Campfire Mocs boot.webp" alt="Campfire Mocs">
+                <img src="images/CampfireMocsboot.webp" alt="Campfire Mocs">
                 <div class="category-tag">Comfort</div>
             </div>
             <div class="product-body">
@@ -202,9 +206,9 @@
                 <h3 class="footer-logo">Camping<span>Gear</span></h3>
                 <p>Providing the best outdoor equipment for your next adventure since 2026.</p>
                 <div class="social-media">
-                    <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.linkedin.com/" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.instagram.com/" class="social-icon"><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
 
@@ -215,6 +219,7 @@
                     <li><a href="Categories.html">Shop All</a></li>
                     <li><a href="About.html">Our Story</a></li>
                     <li><a href="Review.html">Customer Reviews</a></li>
+                <li><a href="privacy-policy.html">Privacy Policy</a></li>
                 </ul>
             </div>
 

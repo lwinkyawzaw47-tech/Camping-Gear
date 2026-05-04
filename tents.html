@@ -14,132 +14,149 @@
         <div class="navbar-brand">
             <h2>Camping<span>Gear</span></h2>
         </div>
+        <button class="navbar-toggle" onclick="this.parentElement.classList.toggle('nav-open')"
+            aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+        </button>
         <ul class="navbar-links">
             <li><a href="index.html">Home</a></li>
             <li><a href="Categories.html">Categories</a></li>
             <li><a href="About.html">About Us</a></li>
             <li><a href="Cart.html">Cart</a></li>
             <li><a href="Review.html">Review</a></li>
+            <li><a href="contact.html">Contact</a></li>
         </ul>
         <div class="navbar-actions">
             <a href="sign.html" class="btn-signin">Sign In</a>
         </div>
     </nav>
-    
+
     <main class="product-page">
-    <div class="product-grid">
-        <div class="product-card">
-            <div class="product-image">
-                <img src="images/Ultralight tents.webp" alt="Ultralight Tent">
-                <span class="product-badge">Top Rated</span>
-            </div>
-            <div class="product-info">
-                <div class="product-meta">
-                    <span><i class="fas fa-users"></i> 1-2 Person</span>
-                    <span>2.1 lbs</span>
+        <div class="product-grid">
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/Ultralighttents.webp" alt="Ultralight Tent">
+                    <span class="product-badge">Top Rated</span>
                 </div>
-                <h3>CloudWalker Ultralight</h3>
-                <p>Minimalist semi-freestanding design for long-distance hikers. Silicon-nylon ripstop fly included.</p>
-                <div class="product-footer">
-                    <span class="price">$249.00</span>
-                    <button class="btn-add" onclick="addToCart('CloudWalker', '$249.00', 'images/Ultralight tents.webp')">Add to Cart</button>
+                <div class="product-info">
+                    <div class="product-meta">
+                        <span><i class="fas fa-users"></i> 1-2 Person</span>
+                        <span>2.1 lbs</span>
+                    </div>
+                    <h3>CloudWalker Ultralight</h3>
+                    <p>Minimalist semi-freestanding design for long-distance hikers. Silicon-nylon ripstop fly included.
+                    </p>
+                    <div class="product-footer">
+                        <span class="price">$249.00</span>
+                        <button class="btn-add"
+                            onclick="addToCart('CloudWalker', '$249.00', 'images/Ultralighttents.webp')">Add to
+                            Cart</button>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="product-card">
-            <div class="product-image">
-                <img src="images/family tents.jpg" alt="Family Tent">
-            </div>
-            <div class="product-info">
-                <div class="product-meta">
-                    <span><i class="fas fa-users"></i> 6 Person</span>
-                    <span>14 lbs</span>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/familytents.jpg" alt="Family Tent">
                 </div>
-                <h3>Heritage Family Dome</h3>
-                <p>Spacious interior with 6-foot center height and room divider for privacy. Easy 10-minute setup.</p>
-                <div class="product-footer">
-                    <span class="price">$189.00</span>
-                    <button class="btn-add" onclick="addToCart('Heritage Family', '$189.00', 'images/family tents.webp')">Add to Cart</button>
+                <div class="product-info">
+                    <div class="product-meta">
+                        <span><i class="fas fa-users"></i> 6 Person</span>
+                        <span>14 lbs</span>
+                    </div>
+                    <h3>Heritage Family Dome</h3>
+                    <p>Spacious interior with 6-foot center height and room divider for privacy. Easy 10-minute setup.
+                    </p>
+                    <div class="product-footer">
+                        <span class="price">$189.00</span>
+                        <button class="btn-add"
+                            onclick="addToCart('Heritage Family', '$189.00', 'images/familytents.webp')">Add to
+                            Cart</button>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="product-card">
-            <div class="product-image">
-                <img src="images/Winter tents.jpg" alt="Winter Tent">
-                <span class="product-badge" style="background:#3498db;">Extreme</span>
-            </div>
-            <div class="product-info">
-                <div class="product-meta">
-                    <span><i class="fas fa-users"></i> 3 Person</span>
-                    <span>Expedition</span>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/Winter tents.jpg" alt="Winter Tent">
+                    <span class="product-badge" style="background:#3498db;">Extreme</span>
                 </div>
-                <h3>Summit Pro 4-Season</h3>
-                <p>Geodesic dome structure designed to withstand heavy snow loads and gale-force winds.</p>
-                <div class="product-footer">
-                    <span class="price">$420.00</span>
-                    <button class="btn-add" onclick="addToCart('Summit Pro', '$420.00', 'images/Winter tents.jpg')">Add to Cart</button>
+                <div class="product-info">
+                    <div class="product-meta">
+                        <span><i class="fas fa-users"></i> 3 Person</span>
+                        <span>Expedition</span>
+                    </div>
+                    <h3>Summit Pro 4-Season</h3>
+                    <p>Geodesic dome structure designed to withstand heavy snow loads and gale-force winds.</p>
+                    <div class="product-footer">
+                        <span class="price">$420.00</span>
+                        <button class="btn-add"
+                            onclick="addToCart('Summit Pro', '$420.00', 'images/Winter tents.jpg')">Add to Cart</button>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="product-card">
-            <div class="product-image">
-                <img src="images/Instant tents.avif" alt="Instant Tent">
-            </div>
-            <div class="product-info">
-                <div class="product-meta">
-                    <span><i class="fas fa-users"></i> 4 Person</span>
-                    <span>Instant</span>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/Instant tents.avif" alt="Instant Tent">
                 </div>
-                <h3>Swift-Set Pop-Up</h3>
-                <p>Unpack, toss, and watch it set itself up in 30 seconds. Perfect for casual weekend camping.</p>
-                <div class="product-footer">
-                    <span class="price">$125.00</span>
-                    <button class="btn-add" onclick="addToCart('Swift-Set', '$125.00', 'images/Instant tents.avif')">Add to Cart</button>
+                <div class="product-info">
+                    <div class="product-meta">
+                        <span><i class="fas fa-users"></i> 4 Person</span>
+                        <span>Instant</span>
+                    </div>
+                    <h3>Swift-Set Pop-Up</h3>
+                    <p>Unpack, toss, and watch it set itself up in 30 seconds. Perfect for casual weekend camping.</p>
+                    <div class="product-footer">
+                        <span class="price">$125.00</span>
+                        <button class="btn-add"
+                            onclick="addToCart('Swift-Set', '$125.00', 'images/Instant tents.avif')">Add to
+                            Cart</button>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="product-card">
-            <div class="product-image">
-                <img src="images/rooftop tents.webp" alt="Rooftop Tent">
-                <span class="product-badge">Overland</span>
-            </div>
-            <div class="product-info">
-                <div class="product-meta">
-                    <span><i class="fas fa-car"></i> Vehicle Mount</span>
-                    <span>Hard Shell</span>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/rooftop tents.webp" alt="Rooftop Tent">
+                    <span class="product-badge">Overland</span>
                 </div>
-                <h3>Nomad Hard-Shell Roof</h3>
-                <p>Aerodynamic rooftop tent with built-in memory foam mattress. Fits most standard roof racks.</p>
-                <div class="product-footer">
-                    <span class="price">$1,199.00</span>
-                    <button class="btn-add" onclick="addToCart('Nomad Roof', '$1199.00', 'images/rooftop tents.webp')">Add to Cart</button>
+                <div class="product-info">
+                    <div class="product-meta">
+                        <span><i class="fas fa-car"></i> Vehicle Mount</span>
+                        <span>Hard Shell</span>
+                    </div>
+                    <h3>Nomad Hard-Shell Roof</h3>
+                    <p>Aerodynamic rooftop tent with built-in memory foam mattress. Fits most standard roof racks.</p>
+                    <div class="product-footer">
+                        <span class="price">$1,199.00</span>
+                        <button class="btn-add"
+                            onclick="addToCart('Nomad Roof', '$1199.00', 'images/rooftop tents.webp')">Add to
+                            Cart</button>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="product-card">
-            <div class="product-image">
-                <img src="images/bell tents.jpg" alt="Bell Tent">
-            </div>
-            <div class="product-info">
-                <div class="product-meta">
-                    <span><i class="fas fa-users"></i> 8 Person</span>
-                    <span>Canvas</span>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/bell tents.jpg" alt="Bell Tent">
                 </div>
-                <h3>Safari Canvas Bell</h3>
-                <p>Heavy-duty breathable canvas. Large enough for a queen bed and lounge chairs.</p>
-                <div class="product-footer">
-                    <span class="price">$550.00</span>
-                    <button class="btn-add" onclick="addToCart('Safari Bell', '$550.00', 'images/bell tents.jpg')">Add to Cart</button>
+                <div class="product-info">
+                    <div class="product-meta">
+                        <span><i class="fas fa-users"></i> 8 Person</span>
+                        <span>Canvas</span>
+                    </div>
+                    <h3>Safari Canvas Bell</h3>
+                    <p>Heavy-duty breathable canvas. Large enough for a queen bed and lounge chairs.</p>
+                    <div class="product-footer">
+                        <span class="price">$550.00</span>
+                        <button class="btn-add"
+                            onclick="addToCart('Safari Bell', '$550.00', 'images/bell tents.jpg')">Add to Cart</button>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</main>
+    </main>
 
     <footer class="footer">
         <div class="footer-container">
@@ -147,9 +164,9 @@
                 <h3 class="footer-logo">Camping<span>Gear</span></h3>
                 <p>Providing the best outdoor equipment for your next adventure since 2026.</p>
                 <div class="social-media">
-                    <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.linkedin.com/" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.instagram.com/" class="social-icon"><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
 
@@ -160,6 +177,7 @@
                     <li><a href="Categories.html">Shop All</a></li>
                     <li><a href="About.html">Our Story</a></li>
                     <li><a href="Review.html">Customer Reviews</a></li>
+                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
                 </ul>
             </div>
 

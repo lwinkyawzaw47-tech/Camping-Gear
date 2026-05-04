@@ -12,14 +12,19 @@
 <body>
     <nav class="navbar">
         <div class="navbar-brand">
-            <h2>Camping<span>Gear</span></h2>
+            <h3>Camping<span>Gear</span></h3>
         </div>
+        <button class="navbar-toggle" onclick="this.parentElement.classList.toggle('nav-open')"
+            aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+        </button>
         <ul class="navbar-links">
             <li><a href="index.html">Home</a></li>
             <li><a href="Categories.html">Categories</a></li>
             <li><a href="About.html">About Us</a></li>
             <li><a href="Cart.html">Cart</a></li>
             <li><a href="Review.html">Review</a></li>
+            <li><a href="contact.html">Contact</a></li>
         </ul>
         <div class="navbar-actions">
             <a href="sign.html" class="btn-signin">Sign In</a>
@@ -43,7 +48,7 @@
             </div>
 
             <aside class="cart-summary" id="cart-summary-sidebar" style="display: none;">
-                <h3>Order Summary</h3>
+                <h2>Order Summary</h2>
                 <div class="summary-details">
                     <div class="summary-row">
                         <span>Subtotal</span>
@@ -59,7 +64,7 @@
                         <span id="final-total">$0.00</span>
                     </div>
                 </div>
-                <button class="btn-checkout">Proceed to Checkout</button>
+                <button class="btn-checkout" onclick="window.location.href='checkout.html'">Proceed to Checkout</button>
                 <p class="secure-text"><i class="fas fa-lock"></i> Secure Checkout</p>
             </aside>
         </div>
@@ -70,9 +75,9 @@
                 <h3 class="footer-logo">Camping<span>Gear</span></h3>
                 <p>Providing the best outdoor equipment for your next adventure since 2026.</p>
                 <div class="social-media">
-                    <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.linkedin.com/" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.instagram.com/" class="social-icon"><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
 
@@ -83,6 +88,7 @@
                     <li><a href="Categories.html">Shop All</a></li>
                     <li><a href="About.html">Our Story</a></li>
                     <li><a href="Review.html">Customer Reviews</a></li>
+                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
                 </ul>
             </div>
 
